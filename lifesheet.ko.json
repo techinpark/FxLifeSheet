@@ -58,213 +58,213 @@
     ]
   },
   "awake": {
-    "description": "Use this right when you woke up",
+    "description": "잠에서 깨어났을때 이용합니다",
     "schedule": "daily",
     "questions": [
       {
-        "question": "🌇 Good morning",
+        "question": "🌇 좋은 아침이에요",
         "type": "header"
       },
       {
         "key": "sleepQuality",
-        "question": "How would you rate your quality of sleep?",
+        "question": "수면의 질은 어떠셨어요?",
         "type": "range",
         "buttons": {
-          "5": "Excellent, feeling refreshed",
-          "4": "Great, feeling good",
-          "3": "Good, slighty above average",
-          "2": "Solid, slightly tired",
-          "1": "Tired, restless sleep",
-          "0": "Miserable"
+          "5": "우수합니다, 상쾌한 느낌이에요",
+          "4": "기분이 좋아요",
+          "3": "보통이에요 나쁘지 않습니다",
+          "2": "약간 피곤합니다",
+          "1": "피곤하고 얕은잠을 잔거같아요",
+          "0": "잠을 못잔 것 같아요"
         }
       },
       {
         "key": "sleepDuration",
-        "question": "How long did you sleep tonight?",
+        "question": "몇시간 동안 주무셨어요?",
         "type": "number"
       },
       {
         "key": "fitbitTimeAsleep",
-        "question": "How many hours asleep were you according to Fitbit (round to nearest 30mins)",
+        "question": "핏빗에서 추적된 수면의 양을 작성해주세요 (30분 정도 반올림합니다)",
         "type": "number"
       },
       {
         "key": "sleepWokeUpYourself",
-        "question": "Did you wake up by yourself?",
+        "question": "스스로 일어났나요?",
         "type": "boolean"
       },
       {
         "key": "gratefulFor",
-        "question": "I am grateful for? [item 1]",
+        "question": "감사한 항목에 대해 적어주세요 [항목 1]",
         "type": "text"
       },
       {
         "key": "gratefulFor",
-        "question": "I am grateful for? [item 2] /skip",
+        "question": "감사한 항목에 대해 적어주세요 [항목 2] /skip",
         "type": "text"
       },
       {
         "key": "gratefulFor",
-        "question": "I am grateful for? [item 3] /skip",
+        "question": "감사한 항목에 대해 적어주세요 [항목 3] /skip",
         "type": "text"
       },
       {
         "key": "whatWouldMakeTodayGreat",
-        "question": "What would make today great? [item 1]",
+        "question": "오늘 어떤점이 기대되는지 적어주세요 [항목 1]",
         "type": "text"
       },
       {
         "key": "whatWouldMakeTodayGreat",
-        "question": "What would make today great? [item 2] /skip",
+        "question": "오늘 어떤점이 기대되는지 적어주세요 [항목 2] /skip",
         "type": "text"
       },
       {
         "key": "whatWouldMakeTodayGreat",
-        "question": "What would make today great? [item 3] /skip",
+        "question": "오늘 어떤점이 기대되는지 적어주세요 [항목 3] /skip",
         "type": "text"
       },
       {
         "key": "dailyAffirmations",
-        "question": "Daily affirmations, I am...",
+        "question": "오늘의 한마디, 나는 오늘 ...",
         "type": "text"
       },
       {
         "key": "weight",
-        "question": "Current weight, in lbs",
+        "question": "기상 직후 몸무게를 적어주세요 (kg 으로 적습니다)",
         "type": "number"
       }
     ]
   },
   "asleep": {
-    "description": "Use this right when going to bed",
+    "description": "잠자리에 들기전에 이용합니다",
     "schedule": "daily",
     "questions": [
       {
         "key": "amazingThingsThatHappenedToday",
-        "question": "3 amazing things that happened today... [item 1]",
+        "question": "오늘 나에게 일어난 3가지의 좋은 일을 알려주세요 [항목 1]",
         "type": "text"
       },
       {
         "key": "amazingThingsThatHappenedToday",
-        "question": "3 amazing things that happened today... [item 2] /skip",
+        "question": "오늘 나에게 일어난 3가지의 좋은 일을 알려주세요 [항목 2] /skip",
         "type": "text"
       },
       {
         "key": "amazingThingsThatHappenedToday",
-        "question": "3 amazing things that happened today... [item 3] /skip",
+        "question": "오늘 나에게 일어난 3가지의 좋은 일을 알려주세요 [항목 3] /skip",
         "type": "text"
       },
       {
         "key": "madeTodayEvenBetter",
-        "question": "How could I have made today even better?",
+        "question": "나는 오늘을 어떻게 더 좋게 보낼 수 있었을까요?",
         "type": "text"
       },
       {
         "key": "city",
-        "question": "Please share your location, this is used to get your city, country, continent, currency, and weather details",
+        "question": "지금 현재 있는 위치를 공유해주세요, 위치는 도시, 대륙, 통화 및 날씨 세부 정보를 가져오는데 사용할게요",
         "type": "location"
       },
       {
-        "question": "💪 Let's talk fitness first",
+        "question": "💪 먼저 오늘의 활동에 대해 이야기 할게요.",
         "type": "header"
       },
       {
         "key": "alcoholIntake",
-        "question": "How much alcohol did you drink today?",
+        "question": "오늘 술을 얼마나 마셨나요? ",
         "type": "range",
         "buttons": {
-          "5": "No alcohol",
-          "4": "Had 1 drink",
-          "3": "Had 2 drinks",
-          "2": "Had 3 drinks",
-          "1": "Had 4-5 drinks",
-          "0": "Got wasted"
+          "5": "술 안마셨어요",
+          "4": "1잔 마셨어요",
+          "3": "2잔 마셨어요",
+          "2": "3잔 마셨어요",
+          "1": "4-5잔 마셨어요",
+          "0": "기억이 안날 정도로 마셨어요"
         },
         "replies": {
-          "0": "Haha, hope you had a good time and the calories were all worth it. Make sure to still hit your protein goal and eat extra clean the next few days"
+          "0": "좋은시간 이었다면 이미 먹어버린 칼로리도 가치가 있었으리라 믿어요, 단백질의 양을 늘리고 몇일 동안은 몸에 좋은 깨끗한 음식을 드세요"
         }
       },
       {
         "key": "macroAdherence",
-        "question": "How closely did you follow today's macro tracking?",
+        "question": "오늘 식단을 얼마나 잘 따라 줬나요?",
         "type": "range",
         "buttons": {
-          "5": "Was able to scale 90% of my food",
-          "4": "One outside meal, rest scaled",
-          "3": "Two meals outside, rest scaled",
-          "2": "Ate outside only",
-          "1": "Didn't track, but used mind",
-          "0": "Just ate whatever"
+          "5": "대부분의 음식을 잘 따랐습니다",
+          "4": "외식 1회, 나머지는 잘 조절 했습니다",
+          "3": "외식 2회, 나머지는 잘 조절 했습니다",
+          "2": "밖에 나가서 외식만 했어요",
+          "1": "식단을 지키진 않았지만 마음만은 ... ",
+          "0": "맘대로 먹었어요"
         }
       },
       {
         "key": "hungry",
-        "question": "Have you been feeling hungry today?",
+        "question": "오늘 배고픈 기분이 들었나요?",
         "type": "range",
         "buttons": {
-          "5": "Felt full and energized",
-          "4": "Macros aligned perfectly with my hunger",
-          "3": "Comfortably matched my macros",
-          "2": "Managed to squeeze in those macros",
-          "1": "Felt hungry here and then",
-          "0": "Stomach growling parts of the day"
+          "5": "에너지 넘치고 배불렀습니다",
+          "4": "식단을 잘 지켰는데도 배고프지 않았습니다",
+          "3": "적당히 참을만 했습니다",
+          "2": "배고파서 식단을 지키기가 어려웠지만 지켰어요",
+          "1": "너무 배가 고팠어요",
+          "0": "배가 너무 고파서 위가 비어있는 기분이에요"
         }
       },
       {
         "key": "energy",
-        "question": "Have you felt energized overall today?",
+        "question": "오늘 전반적으로 활기찬 하루였나요?",
         "type": "range",
         "buttons": {
-          "5": "Felt full of energy",
-          "4": "Great energy",
-          "3": "Good energy",
-          "2": "Average energy",
-          "1": "Felt tired/sluggish",
-          "0": "Didn't feel like doing a lot"
+          "5": "에너지 풀충전, 컨디션 최상",
+          "4": "완벽한 컨디션이었습니다",
+          "3": "좋은 컨디션이었습니다",
+          "2": "평균적인 컨디션이었습니다",
+          "1": "피곤하고 몸이 축축 쳐졌습니다",
+          "0": "아무것도 하고 싶지 않았어요"
         }
       },
       {
         "key": "stress",
-        "question": "Did you feel stressed today?",
+        "question": "오늘 스트레스를 받았나요?",
         "type": "range",
         "buttons": {
-          "5": "Very calm and aware",
-          "4": "Calm & relaxed",
-          "3": "Neutral",
-          "2": "Lots to do",
-          "1": "Stressed & Overwhelmed",
-          "0": "Very stressed, not sure where to start"
+          "5": "마음이 평화로운 하루였습니다",
+          "4": "안정된 기분이었습니다",
+          "3": "기분이 보통입니다",
+          "2": "할일이 너무 많아요",
+          "1": "스트레스에 짓눌리는 중이에요",
+          "0": "너무 스트레스를 받아서 어찌해야 할바를 모르겠어요"
         }
       },
       {
         "key": "caffeine",
-        "question": "How much caffeine did you drink today? (Coffee, Club Mate, Energy Drinks)",
+        "question": "오늘 얼마나 많은 양의 카페인을 마셨나요? (커피, 에너지 드링크 등)",
         "type": "range",
         "buttons": {
-          "5": "No caffeine",
-          "4": "1 drink",
-          "3": "2 drinks",
-          "2": "3 drinks",
-          "1": "4 drinks",
-          "0": "5 drinks or more"
+          "5": "카페인 섭취를 하지 않았어요",
+          "4": "1 잔",
+          "3": "2 잔",
+          "2": "3 잔",
+          "1": "4 잔",
+          "0": "5 잔 그 이상"
         }
       },
       {
         "key": "caffeineLastDrink",
-        "question": "When was your last caffein drink?",
+        "question": "마지막으로 커피를 마신 시간은 언제에요?",
         "type": "range",
         "buttons": {
-          "5": "Before 3pm",
-          "4": "Before 5pm",
-          "3": "Before 7pm",
-          "2": "Before 9pm",
-          "1": "Before 11pm",
-          "0": "Later"
+          "5": "오후 3시 전",
+          "4": "오후 5시 전",
+          "3": "오후 7시 전",
+          "2": "오후 9시 전",
+          "1": "오후 11시 전",
+          "0": "그 이후"
         }
       },
       {
         "key": "sexDrive",
-        "question": "What's your current sex drive?",
+        "question": "당신의 밤생활은 어떤가요?",
         "type": "range",
         "buttons": {
           "5": "",
@@ -277,176 +277,176 @@
       },
       {
         "key": "gym",
-        "question": "Did you work out in a gym today?",
+        "question": "오늘 헬스장 가서 운동 했어요?",
         "type": "boolean"
       },
       {
         "key": "nap",
-        "question": "Did you nap today?",
+        "question": "오늘 낮잠 주무셨나요? ",
         "type": "boolean"
       },
       {
         "key": "headache",
-        "question": "Did you have headache today?",
+        "question": "오늘 머리 아팠나요?",
         "type": "boolean"
       },
       {
         "key": "coldSymptons",
-        "question": "Did you have any cold symptons? (running nose, feeling dizzy, light ear pain)",
+        "question": "오늘 감기 증상이 있었어요 ? (가벼운 현기증, 코막힘, 귀막힘 통증)",
         "type": "boolean"
       },
       {
         "key": "healthy",
-        "question": "How healthy do you feel?",
+        "question": "당신의 몸상태는 어떤가요?",
         "type": "range",
         "buttons": {
-          "5": "Fully healthy & energized",
-          "4": "Healthy",
-          "3": "Might have a slight cold",
-          "2": "Having a cold",
-          "1": "Stayed home due to health",
-          "0": "Actually sick"
+          "5": "완전 에너지 넘치고 건강해요",
+          "4": "건강해요",
+          "3": "약간 으슬으슬 쌀쌀해요",
+          "2": "감기에 걸렸어요",
+          "1": "몸이 아파서 집에서 쉬었어요",
+          "0": "너무 아파요"
         }
       },
       {
         "key": "creatineIntake",
-        "question": "Did you take your creatine today?",
+        "question": "오늘 크레아틴을 챙기셨나요?",
         "type": "boolean"
       },
       {
         "key": "fishoilIntake",
-        "question": "Did you take your fish oil today?",
+        "question": "오늘 오메가3를 챙기셨나요?",
         "type": "boolean"
       },
       {
         "key": "dailySteps",
-        "question": "How many steps did you take according to Apple Health?",
+        "question": "오늘 총 몇보를 걸으셨나요?",
         "type": "number"
       },
       {
         "key": "fitbitRestingHeartRate",
-        "question": "What was today's resting heart rate according to FitBit",
+        "question": "Fitbit에서 추적된 휴식기의 심박수는 몇인가요?",
         "type": "number"
       },
       {
         "key": "numberOfSwarmCheckins",
-        "question": "How many Swarm check-ins did you do today? Feel free to ignore train stations and other smaller check-ins, it's about how many actual places (restaurants, bars, sights) you visited today",
+        "question": "오늘 어떤 곳들을 방문 하셨나요? 기차역 같은 지나가는 공간들은 제외하고 실제 방문을 했던 공간의 수를 적어주세요",
         "type": "number"
       },
       {
-        "question": "👥 Let's talk social life",
+        "question": "👥 자! 사회생활에 대해서 이야기해볼까요?",
         "type": "header"
       },
       {
         "key": "timeByMyself",
-        "question": "Do you feel like you'd have needed more time by yourself?",
+        "question": "오늘 혼자서 더 많은 시간을 보냈어야 했다고 생각하세요?",
         "type": "range",
         "buttons": {
-          "5": "No",
-          "4": "I've had just enough time",
-          "3": "Good amount of time, could be more",
-          "2": "Busy day, I need more time",
-          "1": "Barely time for myself",
-          "0": "No time by myself"
+          "5": "아니요",
+          "4": "시간이 충분했어요",
+          "3": "시간이 충분했고 더 많았을 수 있어요",
+          "2": "너무 바빴어요, 시간이 더 필요해요",
+          "1": "나를 위한 시간이 부족해요",
+          "0": "나를 위한 시간이 없었어요"
         },
         "replies": {
-          "1": "Take a step back and think how you can improve this for the next days",
-          "0": "Take a step back and think how you can improve this for the next days"
+          "1": "한 걸음 뒤로 물러서서 내일은 어떻게 개선할 수 있을지 한번 생각해보세요!",
+          "0": "한 걸음 뒤로 물러서서 내일은 어떻게 개선할 수 있을지 한번 생각해보세요!"
         }
       },
       {
         "key": "controlOfTime",
-        "question": "Did you feel like you were in control over your time and schedule?",
+        "question": "당신이 당신의 시간과 스케줄을 스스로 관리할 수 있다고 생각하셨나요?",
         "type": "range",
         "buttons": {
-          "5": "In full control",
-          "4": "In control, some constraints",
-          "3": "A few constraints, but still in control",
-          "2": "Average",
-          "1": "Many constraints",
-          "0": "Day was out of my control"
+          "5": "아휴, 그럼요 스스로 잘 관리합니다",
+          "4": "스스로 관리가 되지만 몇가지 제약이 있습니다",
+          "3": "몇가지 제약으로 힘들지만, 그래도 스스로 관리 중입니다",
+          "2": "보통입니다",
+          "1": "제약 사항이 많아요",
+          "0": "내가 스스로 관리하지 못했어요"
         },
         "replies": {
-          "1": "Take a step back and think how you can improve this for the next days",
-          "0": "Take a step back and think how you can improve this for the next days"
+          "1": "한 걸음 뒤로 물러서서 내일은 어떻게 개선할 수 있을지 한번 생각해보세요!",
+          "0": "한 걸음 뒤로 물러서서 내일은 어떻게 개선할 수 있을지 한번 생각해보세요!"
         }
       },
       {
         "key": "socializing",
-        "question": "Do you feel like you need to socialize more?",
+        "question": "더 많은 사람들과 네트워킹 해야한다고 생각하나요?",
         "type": "range",
         "buttons": {
-          "5": "No",
-          "4": "Almost perfect amount",
-          "3": "Socializing was okay",
-          "2": "Feel like I should socialize more",
-          "1": "Not enough socializing",
-          "0": "Feeling isolated"
+          "5": "아니요",
+          "4": "이정도면 충분하다고 생각해요",
+          "3": "괜찮아요",
+          "2": "내가 조금더 네트워킹이 필요하다고 생각해요",
+          "1": "네트워킹이 부족해요",
+          "0": "고립된 기분이에요"
         }
       },
       {
         "key": "goingOut",
-        "question": "Do you feel like you want to go out more, to restaurants, bars, dancing?",
+        "question": "클럽이나, 바, 레스토랑에 가고 싶다고 느껴지나요?",
         "type": "range",
         "buttons": {
-          "5": "Don't feel like I need more",
-          "4": "Felt pretty good about it",
-          "3": "Did just enough",
-          "2": "I want to go out more",
-          "1": "I feel like I'm missing out",
-          "0": "I'm unhappy about not getting out"
+          "5": "아니요, 별로 생각이 안들어요",
+          "4": "꽤 끌리긴 하지만 그닥이에요",
+          "3": "지금 만족합니다",
+          "2": "조금더 자주가면 좋을 것 같아요",
+          "1": "너무 그리워요",
+          "0": "안가면 살수 없을정도로 힘들어요"
         }
       },
       {
-        "question": "⚙️ Let's talk personal growth",
+        "question": "⚙️ 자! 이제 개인 성장에 대해 이야기해 볼까요?",
         "type": "header"
       },
       {
         "key": "learned",
-        "question": "Did you learn/try something new? (skill or activity)",
+        "question": "당신은 새로운것을 배우고 시도 했나요? (기술 또는 새로운 활동)",
         "type": "range",
         "buttons": {
-          "5": "Learned multiple new things",
-          "4": "Learned some new things",
-          "3": "Learned something new",
-          "2": "Improved something existing",
-          "1": "Didn't learn anything",
-          "0": "I feel like I should learn more"
+          "5": "여러가지의 새로운 것들을 배웠어요",
+          "4": "새로운 것들을 배웠어요",
+          "3": "새로운 것을 배웠어요",
+          "2": "알고 있었지만 더 많이 알게 되었어요",
+          "1": "아무것도 안배웠다",
+          "0": "나는 더 많은것들을 배워야 하는것 같은 느낌이 들어요"
         }
       },
       {
         "key": "comfortZone",
-        "question": "Did you get out of your comfort zone",
+        "question": "당신은 당신의 한계를 깨보셨나요?",
         "type": "range",
         "buttons": {
-          "5": "Did something(s) I was really scared about",
-          "4": "Did something(s) I was worried about",
-          "3": "Did something I wouldn't have done before",
-          "2": "Did something new",
-          "1": "Did smaller tweaks",
-          "0": "Didn't do anything new"
+          "5": "정말 두려웠던 일들을 해냈어요",
+          "4": "정말 걱정했던 일들을 해냈어요",
+          "3": "전에는 해보지 못했던 일을 했어요",
+          "2": "새로운 일을 했어요",
+          "1": "작은 개선이 있었어요",
+          "0": "아무것도 하지 않았어요"
         }
       },
       {
         "key": "problemSolving",
-        "question": "Did you work on any technical challenges and problem solving?",
+        "question": "기술적인 문제 해결을 위해 노력을 했나요?",
         "type": "range",
         "buttons": {
-          "5": "Exciting challenges",
-          "4": "Interesting challenges",
-          "3": "Did some coding",
-          "2": "No actual challenges",
-          "1": "Just a little bit",
-          "0": "Nothing"
+          "5": "흥미로운 도전이었어요",
+          "4": "즐거운 도전이었어요",
+          "3": "코딩을 좀 했어요",
+          "2": "문제가 없었어요",
+          "1": "약간 이요",
+          "0": "전혀 하지 않았어요"
         }
       },
       {
         "key": "minutesRead",
-        "question": "How many minutes of Audible did you listen to today?",
+        "question": "오늘 몇분동안 음악을 들었나요? ",
         "type": "number"
       },
       {
-        "question": "🧠 Let's talk productivity",
+        "question": "🧠 자! 그럼 이제 생산성에 대해 이야기를 해볼거에요",
         "type": "header"
       },
       {
