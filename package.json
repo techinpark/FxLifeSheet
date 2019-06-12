@@ -2,7 +2,6 @@
   "scripts": {
     "prettier": "prettier worker.ts web.ts reminder.ts classes/*.ts --write",
     "typescript": "tsc web.ts worker.ts reminder.ts classes/google_sheets.ts classes/telegram.ts classes/config.ts",
-
     "dev": "source .keys && npm run prettier && npm run typescript && heroku local",
     "web": "npm run prettier && npm run typescript && node web.js",
     "worker": "npm run prettier && npm run typescript && node worker.js",
@@ -11,9 +10,9 @@
   "dependencies": {
     "google-spreadsheet": "^2.0.7",
     "moment": "^2.24.0",
-    "needle": "^2.2.4",
-    "prettier": "^1.16.4",
-    "telegraf": "^3.28.0",
-    "typescript": "^3.4.1"
+    "needle": "^2.4.0",
+    "prettier": "^1.18.2",
+    "telegraf": "^3.30.1",
+    "typescript": "^3.5.1"
   }
 }
